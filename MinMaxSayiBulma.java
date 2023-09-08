@@ -20,7 +20,8 @@ public class MinMaxSayiBulma {
             }
             if (sayi > max) {
                 max = sayi;
-            } else if (sayi < min) {
+            }
+            if (sayi < min) {
                 min = sayi;
             }
             i++;
