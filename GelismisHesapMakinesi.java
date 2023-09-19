@@ -5,14 +5,13 @@ public class GelismisHesapMakinesi {
         int result = a % b;
         System.out.println("Mod alma işlemi =" + result);
         return result;
-
     }
-
     static void calc(int a, int b) {
+
         System.out.println("Alan =" + (a * b));
         System.out.println("Çevre =" + (2 * (a + b)));
-    }
 
+    }
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
         int a;
@@ -26,9 +25,8 @@ public class GelismisHesapMakinesi {
 
             if (select != 1 && select != 2) {
                 break;
+
             } else {
-
-
                 System.out.print("İlk sayıyı giriniz :");
                 a = inp.nextInt();
 
