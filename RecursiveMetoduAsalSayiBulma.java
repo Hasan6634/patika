@@ -21,7 +21,6 @@ public class RecursiveMetoduAsalSayiBulma {
 
     public static void main(String[] args) {
         int number;
-        int counter;
         Scanner input = new Scanner(System.in);
         System.out.print("Sayıyı giriniz :");
         number = input.nextInt();
